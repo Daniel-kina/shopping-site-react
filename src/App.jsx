@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router";
+import { Link, Outlet } from "react-router";
 import "./App.css";
 
 function App() {
@@ -13,13 +13,14 @@ function App() {
             <Link to="/">Home</Link>
           </li>
           <li className="nav">
-            <Link to="/shop">Shop</Link>
+            <Link to="/Shop">Shop</Link>
           </li>
           <li className="nav">
             <Link to="/cart">Shopping Cart</Link>
           </li>
         </ul>
       </div>
+      <Outlet />
     </>
   );
 }
