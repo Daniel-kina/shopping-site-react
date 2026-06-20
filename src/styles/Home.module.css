@@ -1,17 +1,15 @@
 .firstSection {
-    display: flex;
-    
+  display: flex;
 }
 .sectionText {
-    padding: 10px;
-    text-align: center;
-    align-self: center;
-    max-width: 500px;
+  padding: 10px;
+  flex: 1 1 30%;
+  max-width: 300px;
 }
 
 .sectionImageWrapper {
-    flex-grow: 2;
-    height: 500px;
+  flex: 2 1 70%;
+  max-height: 500px;
 }
 
 .sectionImageWrapper img {
