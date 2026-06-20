@@ -10,7 +10,7 @@ function Home() {
         <div className={styles.sectionImageWrapper}>
           <img 
         
-        src={`${import.meta.env.BASE_URL}home/shoes.jpeg`} 
+        src={`${import.meta.env.BASE_URL}home/shoes.jpg`} 
         alt="Awesome Backpack" 
       />
         </div>
