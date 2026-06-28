@@ -1,40 +1,41 @@
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: rgb(231, 231, 173);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffc038;
 }
 
-.upperNavbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 100%;
+.upperNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  padding: 15px 20px;
 }
 
 .lowerNavbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(58, 58, 51);
-    color: white;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  color: white;
+  width: 100%;
 }
 
 .upperNavbarLogo {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .navItem {
-    padding: 10px 25px;
+  padding: 10px 25px;
 }
 
 .navIcons {
-    display: flex;
-    gap: 12px;
-    right:0;
-    position: absolute;
+  display: flex;
+  gap: 12px;
+  right: 2.5%;
+  position: absolute;
 }

@@ -1,0 +1,27 @@
+.firstSection {
+  display: flex;
+}
+.sectionText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding: 10px;
+  flex: 1 1 30%;
+  max-width: 400px;
+  text-align: center;
+  background-color: #f2efee;
+}
+
+.sectionImageWrapper {
+  flex: 2 1 70%;
+  max-height: 400px;
+}
+
+.sectionImageWrapper img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+    object-fit: cover;
+    
+}
